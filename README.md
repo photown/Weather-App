@@ -22,6 +22,9 @@ Download and install the following software:
 3. From the menu select ```File > Open...```
 4. Find the unarchived folder and select it. 
 5. Wait for everything to load.
+6. Start Genymotion.
+7. Configure a new Genymotion device and start it.
+8. Go back to Android Studio and select ```Run > Run App``` from the menu.
 
 ## License
     The MIT License (MIT)
