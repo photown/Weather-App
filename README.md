@@ -1,6 +1,14 @@
 # Weather-App
 The demo application we went through at my lightning talk @HackConf2015
 
+Quick runthrough:
+
+* Code is in ```/app/src/main/java/bg/hackconf/weatherapp```
+
+* XML layout files are in ```/app/src/main/res/layout```
+
+* Android Manifest file is ```/app/src/main/AndroidManifest.xml```
+
 ## Prerequisites:
 Download and install the following software:
 
@@ -14,6 +22,9 @@ Download and install the following software:
 3. From the menu select ```File > Open...```
 4. Find the unarchived folder and select it. 
 5. Wait for everything to load.
+6. Start Genymotion.
+7. Configure a new Genymotion device and start it.
+8. Go back to Android Studio and select ```Run > Run 'app'``` from the menu.
 
 ## License
     The MIT License (MIT)
