@@ -1,6 +1,14 @@
 # Weather-App
 The demo application we went through at my lightning talk @HackConf2015
 
+Quick runthrough:
+
+* Code is in ```/app/src/main/java/bg/hackconf/weatherapp```
+
+* XML layout files are in ```/app/src/main/res/layout```
+
+* Android Manifest file is ```/app/src/main/AndroidManifest.xml```
+
 ## Prerequisites:
 Download and install the following software:
 
