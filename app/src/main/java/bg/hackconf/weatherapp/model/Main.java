@@ -3,9 +3,6 @@ package bg.hackconf.weatherapp.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * By Antoan Angelov on 15-Sep-15.
- */
 public class Main {
     @Expose
     private Double temp;

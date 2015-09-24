@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Pretty much all the code here is mandatory.-->
+<!-- The Manifest describes activities, permissions and other metadata for your app.-->
+<!-- Google Play uses this file to see if an app is compatible with your phone. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="bg.hackconf.weatherapp" >
 
+    <!-- We need to tell Android that we will be using the internet. -->
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:fullBackupContent="false"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
+        <!-- Here we define our main screen. -->
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
@@ -19,6 +26,7 @@
             </intent-filter>
         </activity>
 
+        <!-- And here we define our WeatherActivity screen. -->
         <activity android:name=".WeatherActivity"/>
     </application>
 

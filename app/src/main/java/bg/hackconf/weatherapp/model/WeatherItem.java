@@ -5,9 +5,6 @@ import com.google.gson.annotations.Expose;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * By Antoan Angelov on 15-Sep-15.
- */
 public class WeatherItem {
     @Expose
     private List<Weather> weather = new ArrayList<>();

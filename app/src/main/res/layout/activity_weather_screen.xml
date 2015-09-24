@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- A LinearLayout is a container, which orders all items inside it
+    either horizontally or vertically. That depends on the orientation you give it -
+    horizontal or vertical respectively. It can have all kinds of views
+    and other containers as well. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,6 +12,9 @@
     android:orientation="vertical"
     tools:ignore="HardcodedText,UnusedAttribute">
 
+    <!-- A TextView is a simple label. It contains text. That's pretty much it.
+        There are some attributes which we use to describe the color,
+        text size, font, etc. -->
     <TextView
         android:id="@+id/capital_description"
         android:layout_width="wrap_content"
