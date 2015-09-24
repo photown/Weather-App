@@ -1,8 +1,8 @@
 # Weather-App
 The demo application we went through at my lightning talk @HackConf2015
 
-![Alt Text](https://github.com/antoan-angelov/Weather-App/blob/master/screenshots/screenshot-final-1.png?raw=true)
-![Alt Text](https://github.com/antoan-angelov/Weather-App/blob/master/screenshots/screenshot-final-2.png?raw=true)
+![Alt Text](https://github.com/antoan-angelov/Weather-App/blob/master/screenshots/screenshot-1.png?raw=true)
+![Alt Text](https://github.com/antoan-angelov/Weather-App/blob/master/screenshots/screenshot-2.png?raw=true)
 
 Quick runthrough:
 
