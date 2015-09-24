@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,UnusedAttribute">
+
+    <TextView
+        android:id="@+id/capital_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-light"
+        android:singleLine="true"
+        android:text="LOADING..."
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        tools:text="LIGHT RAIN" />
+
+    <TextView
+        android:id="@+id/capital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#616161"
+        android:textSize="25sp"
+        tools:text="Sofia" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/capital_temperature_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="#00E676"
+            android:textSize="80sp"
+            tools:text="17°" />
+
+        <TextView
+            android:id="@+id/capital_temperature_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#616161"
+            android:textSize="35sp"
+            tools:text="/18°" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/additional_info_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        tools:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="HUMIDITY "
+            android:textColor="#616161"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/capital_humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#00a253"
+            android:textSize="20sp"
+            tools:text="93%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="WIND "
+            android:textColor="#616161"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/capital_wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#00a253"
+            android:textSize="20sp"
+            tools:text="1.0m/s" />
+
+    </LinearLayout>
+
+</LinearLayout>
